@@ -1,0 +1,22 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeature": {
+            "jsx":true
+        }
+    },
+    "env": {
+        "browser": true, 
+        "node": true,
+        "es6":true
+    }, 
+    // 상당히 너그럽다 
+    "extends": [
+        "eslint:recommend",
+        "plugin:react/commended"
+    ],
+    "rules": {
+
+    }
+}
